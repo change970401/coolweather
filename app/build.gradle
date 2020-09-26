@@ -22,6 +22,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:+'
+    implementation 'org.litepal.android:core:1.4.1'
     implementation 'org.litepal.android:java:3.0.0' //3.0.0是版本号的意思，最新的版本号可以到LitePal的项目主页上看看
     implementation 'com.squareup.okhttp3:okhttp:4.4.0'
     implementation 'com.google.code.gson:gson:2.8.2'
